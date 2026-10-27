@@ -20,13 +20,7 @@ public class ChatController {
     @GetMapping("/chat")
     public  String Chat()
     {
-        return "chat";
-    }
-
-    @GetMapping
-    public String sayHello()
-    {
-      return "hello";
+        return "redirect:/chat.html";
     }
 
 }
